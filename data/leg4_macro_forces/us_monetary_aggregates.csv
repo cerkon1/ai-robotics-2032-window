@@ -1,0 +1,9 @@
+source_id,verified,as_of_date,series_id,metric,value,unit,notes
+LEG4_FRED_M2,false,2026-01-31,M2SL,M2_money_supply,22442100000000,USD,"Monthly seasonally-adjusted. Jan 2026."
+LEG4_FRED_M2,false,2025-12-31,M2SL,M2_money_supply,22366200000000,USD,"Dec 2025."
+LEG4_FRED_M2,false,2025-07-31,M2SL,M2_money_supply,21400000000000,USD,"July 2025 — approximate ($20.4T+ per Mises Institute Feb 2026 article reference)."
+LEG4_FRED_M2,false,2026-02-28,M2SL,M2_money_supply,20500000000000,USD,"Approximate Feb 2026 — referenced as ""above $20.4 trillion"" but discrepancy with Jan figure indicates data ambiguity, verify."
+LEG4_FRED_M2,false,2026-01-31,M2SL,M2_growth_12month,1600000000000,USD,"+$1.6T over preceding 12 months per Mises Institute reporting Feb 2026."
+LEG4_FRED_M2,false,2026-01-31,M2SL,M2_vs_covid_peak_delta,-500000000000,USD,"Currently ~$0.5T below COVID-era peak."
+LEG4_FRED_FED_BALANCE,pending,2026-05-12,WALCL,fed_balance_sheet_total_assets,,USD,"PENDING. Direct FRED CSV download blocked from this environment. Series at https://fred.stlouisfed.org/series/WALCL — weekly releases, next May 14 2026. Tier 2: fetch H.6 PDF from federalreserve.gov or FRED via alternate network."
+LEG4_FRED_LABOR_SHARE,pending,2024-Q4,PRS85006173,labor_share_nonfarm_business,,index,"PENDING. Direct FRED CSV blocked. Series at https://fred.stlouisfed.org/series/PRS85006173."

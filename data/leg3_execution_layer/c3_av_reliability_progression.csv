@@ -1,0 +1,11 @@
+source_id,verified,year,company,metric,value,unit,notes
+LEG3_AV_HISTORICAL,false,2023,Waymo,ca_test_miles,3669962,miles,"Per CA DMV 2023 disengagement report."
+LEG3_AV_HISTORICAL,false,2024,Waymo,ca_test_miles,2389565,miles,"Per CA DMV 2024 disengagement report. -35% YoY — pivoting from testing to commercial operations."
+LEG3_AV_HISTORICAL,false,2023,Waymo,ca_driverless_permits,380,vehicles,"Per CA DMV."
+LEG3_AV_HISTORICAL,false,2024,Waymo,ca_driverless_permits,1080,vehicles,"+184% YoY. Driverless-permitted fleet growth."
+LEG3_AV_HISTORICAL,false,2024,Waymo,ca_active_fleet,1035,vehicles,"+136% YoY."
+LEG3_AV_HISTORICAL,false,2024,Waymo,ca_avs_in_use,790,vehicles,"vs 122 in 2023."
+LEG3_AV_HISTORICAL,false,2024,industry_total,ca_total_test_miles,4500000,miles,"-50% YoY. Industry pivot from testing to commercial deployment."
+LEG3_AV_HISTORICAL,false,2023,industry_total,ca_driverless_miles,3260000,miles,
+LEG3_AV_HISTORICAL,false,2024,industry_total,ca_driverless_miles,552895,miles,"-83% YoY. Almost entirely Waymo's pivot to commercial ops."
+LEG3_AV_INTERPRETATION,false,2024,Waymo,commercial_cities,3,cities,"Waymo commercial robotaxi operations live in SF, LA, Phoenix as of late 2024. Expanding."

@@ -1,0 +1,9 @@
+source_id,verified,as_of_date,scope,metric,value,unit,notes
+LEG3_FERC_QUEUE,false,2024-12-31,United_States,total_projects_in_queue,10300,projects,"Per LBNL Queued Up 2025 Edition. Cleaned data through end of 2024."
+LEG3_FERC_QUEUE,false,2024-12-31,United_States,generation_capacity_in_queue,1400,GW,"~1.4 TW of generation projects awaiting interconnection."
+LEG3_FERC_QUEUE,false,2024-12-31,United_States,storage_capacity_in_queue,890,GW,"~890 GW of energy storage projects in queue (separately from generation)."
+LEG3_FERC_QUEUE,false,2018-2024,United_States,median_wait_time_request_to_operation,4,years,"Median duration: >4 years for projects built 2018-2024."
+LEG3_FERC_QUEUE,false,2000-2007,United_States,median_wait_time_request_to_operation,2,years,"Median duration: <2 years for projects built 2000-2007. Doubled in 15 years."
+LEG3_FERC_QUEUE,false,2000-2019,United_States,withdrawal_rate,77,percent,"77% of capacity that submitted interconnection requests from 2000-2019 was withdrawn before reaching commercial operation."
+LEG3_FERC_QUEUE,false,2000-2019,United_States,completion_rate,13,percent,"Only 13% of capacity submitted 2000-2019 had reached commercial operations by end-2024."
+LEG3_FERC_QUEUE,false,2000-2019,United_States,still_active_rate,10,percent,"10% of capacity submitted 2000-2019 was still active in queue at end-2024."

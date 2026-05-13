@@ -1,0 +1,10 @@
+source_id,verified,jurisdiction,date,regulation,trigger_event,quantitative_impact,notes
+LEG3_EU_AI_ACT,false,European_Union,2024-08-01,EU_AI_Act,Entry_into_force,,"EU AI Act entered into force August 1, 2024."
+LEG3_EU_AI_ACT,false,European_Union,2025-02-02,EU_AI_Act,Prohibited_practices_apply,,"AI literacy obligations (Art 4) + prohibited practices (Art 5) apply from 2 Feb 2025."
+LEG3_EU_AI_ACT,false,European_Union,2026-02-02,EU_AI_Act,Article_6_guidelines_deadline,,"European Commission shall provide guidelines for practical implementation of Article 6 (high-risk classification) by 2 Feb 2026 — past."
+LEG3_EU_AI_ACT,false,European_Union,2026-08-02,EU_AI_Act,High_risk_Annex_III_obligations_apply,,"High-risk AI systems listed in Annex III + transparency requirements (Art 50) + innovation support measures apply from 2 Aug 2026."
+LEG3_EU_AI_ACT,false,European_Union,2027-08-02,EU_AI_Act,Article_6_1_high_risk_Annex_I_apply,,"Obligations for high-risk AI systems embedded in regulated products listed in Annex I (Union harmonisation legislation) apply from 2 Aug 2027."
+LEG3_EU_AI_ACT,false,European_Union,2027-12-02,EU_AI_Act,Possible_Digital_Omnibus_delay,,"Digital Omnibus amendments currently in trilogue propose delaying high-risk obligations to 2 Dec 2027. If not adopted, original 2 Aug 2026 deadline holds."
+LEG3_OSHA,pending,United_States,2025,OSHA_human_robot_collaboration,Guidance_evolution,,"PENDING: status of OSHA human-robot collaboration guidance, current state. Tier 2."
+LEG3_US_STATE,pending,United_States,2025-2026,State_AI_regulations,Patchwork,,"PENDING: California SB-1047 status, Colorado AI Act, NYC AI bias audit, Texas TRAIGA. Tier 2."
+LEG3_CHINA_STANDARDS,false,China,2026-02,MIIT_humanoid_standards,First_national_standard_published,,"China MIIT published first national standard system for humanoid robots and embodied intelligence in February 2026. Standards-side mirror of US/EU regulation but enabling-not-restricting in tone."

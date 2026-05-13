@@ -1,0 +1,11 @@
+source_id,verified,date,actor,role,commitment_usd,timeline,location,notes
+LEG4_STARGATE,false,2025-01-21,Stargate_Project,joint_venture_announcement,500000000000,4_years,United_States,"Total commitment announced Jan 21 2025 — $500B over 4 years."
+LEG4_STARGATE,false,2025-01-21,Stargate_Project,initial_deployment,100000000000,immediate,United_States,"$100B deployed immediately on announcement."
+LEG4_STARGATE,false,2025-01-21,SoftBank,partner_40pct,19000000000,initial,United_States,"40% ownership. CEO Masayoshi Son = chairman."
+LEG4_STARGATE,false,2025-01-21,OpenAI,partner_40pct,19000000000,initial,United_States,"40% ownership."
+LEG4_STARGATE,false,2025-01-21,Oracle,partner_7pct,7000000000,initial,United_States,"7% ownership."
+LEG4_STARGATE,false,2025-01-21,MGX_Abu_Dhabi,partner_7pct,7000000000,initial,United_States,"7% ownership. Sovereign-fund-linked investment vehicle."
+LEG4_STARGATE,false,2026-Q1,Stargate_Project,capacity_planned,,3_years,United_States,"Nearly 7 GW capacity now planned. Over $400B planned investment over next 3 years per Q1 2026 update."
+LEG4_STARGATE,false,2026,Stargate_Project,site_count_US,5,2026,United_States,"5 new US data center sites announced 2026 Q1."
+LEG4_STARGATE,false,2026,Stargate_Project,site_international,1,2026,UAE,"International expansion: UAE site opening 2026."
+LEG4_STARGATE,false,2026,Stargate_Project,site_in_development,4,future,UK_Norway_Argentina_South_Korea,"UK / Norway / Argentina / South Korea in development."

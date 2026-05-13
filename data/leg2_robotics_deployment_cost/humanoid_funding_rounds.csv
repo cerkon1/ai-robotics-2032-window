@@ -1,0 +1,13 @@
+source_id,verified,company,round,announced_date,amount_usd,valuation_usd,lead_investors,other_investors,notes
+LEG2_HUMANOID_FUNDING,false,Apptronik,Series A,2025-02-01,415000000,,"B Capital, Google",Mercedes-Benz; Peak6,"Initial Series A. Reported by Crunchbase Feb 2025."
+LEG2_HUMANOID_FUNDING,false,Apptronik,Series A extension,2026-02-11,520000000,,"B Capital, Google, Mercedes-Benz, Peak6","AT&T Ventures; John Deere","3x multiple of Series A valuation. Total Series A: $935M. Commercial partners: Mercedes-Benz, GXO Logistics, Jabil."
+LEG2_HUMANOID_FUNDING,false,Apptronik,Series A (Nov 2025 partial),2025-11-01,331000000,5000000000,,,"$331M raise reported Nov 2025 at $5B valuation. Possibly part of the $520M extension above — verify per-tranche split before citing."
+LEG2_HUMANOID_FUNDING,false,Figure AI,Series C,2025-09-01,1000000000,39000000000,,,"$39B post-money valuation. ""More than $1B in committed Series C capital"" per company communication."
+LEG2_HUMANOID_FUNDING,false,Skild AI,Series funding,2026-01-14,1400000000,14000000000,SoftBank Group,,"Tripled valuation to >$14B. Largest single humanoid-AI software round to date."
+LEG2_HUMANOID_FUNDING,false,Physical Intelligence,Series B,2025,600000000,,,,"Date precision: 2025 (specific month pending verification)."
+LEG2_HUMANOID_FUNDING,false,Galaxy Bot,Series A,2025,453000000,,,,"Per third-party aggregation (Lukas Ziegler tracking). Primary source verification pending."
+LEG2_HUMANOID_FUNDING,false,Agility Robotics,(round type pending),2025,400000000,,,,"Per third-party aggregation. Primary source verification pending."
+LEG2_HUMANOID_FUNDING,false,1X Technologies,Series (pursuing),2025,,,,,"Reported pursuing up to $1B for home-assistant humanoids. Not yet closed at time of pull."
+LEG2_HUMANOID_FUNDING,false,All_robotics_startups,Aggregate_2024,2024-12-31,8200000000,,,,"Sector total 2024 per Crunchbase News (Feb 2026)."
+LEG2_HUMANOID_FUNDING,false,All_robotics_startups,Aggregate_2025,2025-12-31,14000000000,,,,"Sector total 2025 per Crunchbase News (Feb 2026). +70% YoY. Exceeded 2021 peak of $13.1B."
+LEG2_HUMANOID_FUNDING,false,All_robotics_startups,Aggregate_2021,2021-12-31,13100000000,,,,"Prior peak per Crunchbase News reference."

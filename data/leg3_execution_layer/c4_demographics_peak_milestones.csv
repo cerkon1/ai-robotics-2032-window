@@ -1,0 +1,12 @@
+source_id,verified,scope,metric,value,unit,year,notes
+LEG3_UN_WPP_DEMOGRAPHICS,true,Global,population_peak_year,2084,year,2084,"UN WPP 2024 projection. Down from 2086 in WPP 2022."
+LEG3_UN_WPP_DEMOGRAPHICS,true,Global,population_peak_value,10300000000,people,2084,"Peak just under 10.3B. Down from 10.4B in WPP 2022."
+LEG3_UN_WPP_DEMOGRAPHICS,true,Global,countries_already_peaked,63,countries,2024,"63 countries (incl. China, Germany, Japan, Russia) are already past peak population."
+LEG3_UN_WPP_DEMOGRAPHICS,true,Peaked_group_aggregate,projected_population_decline_2024_2054,-14,percent,2054,"Total population of the already-peaked country group projected to decline 14% over 30 years."
+LEG3_UN_WPP_DEMOGRAPHICS,true,Global,fertility_rate_historical_1960s,5.0,children_per_woman,1960,"Global fertility was over 5 children per woman in the 1960s."
+LEG3_UN_WPP_DEMOGRAPHICS,true,Global,fertility_rate_current,2.3,children_per_woman,2024,"Global fertility has more than halved since the 1960s."
+LEG3_UN_WPP_DEMOGRAPHICS,true,Ultra_low_fertility_countries,fertility_threshold,1.4,children_per_woman,2024,"China, Italy, South Korea, Spain experiencing 'ultra-low' fertility — <1.4 births per woman."
+LEG3_UN_WPP_DEMOGRAPHICS,true,China,projected_total_population_change_2024_2054,-200000000,people,2054,"Approximately -200M (~-14%) over 30 years per WPP 2024."
+LEG3_UN_WPP_DEMOGRAPHICS,true,Africa,fertility_rate_historical_1970s,7.0,children_per_woman,1970,"Africa fertility was almost 7 children per woman in the 1970s."
+LEG3_UN_WPP_DEMOGRAPHICS,true,Africa,fertility_rate_current,4.0,children_per_woman,2024,"Africa fertility now ~4 children per woman."
+LEG3_UN_WPP_DEMOGRAPHICS,reference,All_target_countries,working_age_15_64_by_country_year,,people,,"See c4_working_age_population_by_country.csv for full per-country / per-year working-age data, 1990-2100. 17 countries x 12 years = 192 data points."

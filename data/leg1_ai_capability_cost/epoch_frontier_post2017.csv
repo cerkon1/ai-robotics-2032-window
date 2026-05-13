@@ -1,0 +1,167 @@
+source_id,verified,Publication date,Model,Organization,Country (of organization),Domain,Parameters,Training compute (FLOP),Training compute cost (2023 USD),Confidence,Frontier model,Open model weights?,Notability criteria
+LEG1_EPOCH_NOTABLE_2024,true,2017-07-10,JFT,"Google Research,Carnegie Mellon University (CMU)","United States of America,United States of America",Vision,44654504.0,8.43e+20,17910.759507843868,Confident,True,,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2017-08-11,OpenAI TI7 DOTA 1v1,OpenAI,United States of America,Games,,6.046095222592002e+20,,Confident,True,,"Historical significance,SOTA improvement"
+LEG1_EPOCH_NOTABLE_2024,true,2017-10-18,AlphaGo Zero,DeepMind,United Kingdom of Great Britain and Northern Ireland,Games,46400244.0,6.49439910290227e+20,1213.8707315707268,Confident,True,No,Highly cited
+LEG1_EPOCH_NOTABLE_2024,true,2018-05-02,ResNeXt-101 32x48d,Facebook,United States of America,Vision,829000000.0,8.74395e+21,134077.42688552555,Confident,True,Yes,"Highly cited,SOTA improvement"
+LEG1_EPOCH_NOTABLE_2024,true,2019-06-01,XLNet,"Carnegie Mellon University (CMU),Google Brain","United States of America,United States of America",Language,340000000.0,6.19e+21,13644.959135438661,Confident,True,Yes,Highly cited
+LEG1_EPOCH_NOTABLE_2024,true,2019-07-01,RoBERTa Large,"Facebook,University of Washington","United States of America,United States of America",Language,355000000.0,8.5067e+21,85350.2350127364,Confident,True,Yes,"Highly cited,SOTA improvement"
+LEG1_EPOCH_NOTABLE_2024,true,2019-09-17,Megatron-LM (8.3B),NVIDIA,United States of America,Language,8300000000.0,9.1e+21,109287.55758939347,Likely,True,No,"Highly cited,SOTA improvement"
+LEG1_EPOCH_NOTABLE_2024,true,2019-09-17,Megatron-BERT,NVIDIA,United States of America,Language,3900000000.0,2.2e+22,171818.64196707975,Confident,True,No,"Highly cited,SOTA improvement"
+LEG1_EPOCH_NOTABLE_2024,true,2019-10-23,T5-11B,Google,United States of America,Language,11000000000.0,3.3e+22,78464.68282814459,Confident,True,Yes,Highly cited
+LEG1_EPOCH_NOTABLE_2024,true,2019-10-23,T5-3B,Google,United States of America,Language,2800000000.0,9.0000000001e+21,17420.709393371122,Confident,True,Yes,Highly cited
+LEG1_EPOCH_NOTABLE_2024,true,2019-10-30,AlphaStar,DeepMind,United Kingdom of Great Britain and Northern Ireland,Games,139000000.0,1.0773400001e+23,130654.07330431018,Confident,True,No,Discretionary
+LEG1_EPOCH_NOTABLE_2024,true,2019-11-05,XLM-RoBERTa,Facebook AI,United States of America,Language,550000000.0,2.076e+22,77861.31819548723,Confident,True,Yes,"Highly cited,SOTA improvement"
+LEG1_EPOCH_NOTABLE_2024,true,2019-11-11,Noisy Student (L2),"Carnegie Mellon University (CMU),Google","United States of America,United States of America",Vision,480000000.0,2.612e+22,45609.73119622589,Confident,True,No,"Highly cited,SOTA improvement"
+LEG1_EPOCH_NOTABLE_2024,true,2019-12-13,OpenAI Five,OpenAI,United States of America,Games,159000000.0,6.7e+22,4328311.470477086,Confident,True,No,"Highly cited,SOTA improvement"
+LEG1_EPOCH_NOTABLE_2024,true,2020-01-28,Meena,Google Brain,United States of America,Language,2600000000.0,1.12e+23,214809.91213508433,Confident,True,No,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2020-05-28,GPT-3 175B (davinci),OpenAI,United States of America,Language,174600000000.0,3.14e+23,2116866.2428390156,Confident,True,No,"Highly cited,Training cost"
+LEG1_EPOCH_NOTABLE_2024,true,2020-06-30,GShard (dense),Google,United States of America,Language,2300000000.0,4.765e+22,266200.0315979732,Confident,True,No,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2020-10-20,mT5-XXL,"Google,Google Research","United States of America,United States of America",Language,13000000000.0,8.2e+22,179442.0291399545,Confident,True,Yes,"Highly cited,SOTA improvement"
+LEG1_EPOCH_NOTABLE_2024,true,2021-01-11,Switch,Google,United States of America,Language,1571000000000.0,8.22e+22,145100.89767585773,Confident,True,Yes,"Highly cited,SOTA improvement"
+LEG1_EPOCH_NOTABLE_2024,true,2021-08-11,Jurassic-1-Jumbo,AI21 Labs,Israel,Language,178000000000.0,3.7e+23,836700.050829598,Confident,True,No,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2021-09-03,FLAN 137B,Google Research,United States of America,Language,137000000000.0,2.047e+24,,Confident,True,No,"Highly cited,SOTA improvement"
+LEG1_EPOCH_NOTABLE_2024,true,2021-09-10,HyperCLOVA 204B,NAVER,Korea (Republic of),Language,204000000000.0,2.0000000001e+23,441770.0038182093,Speculative,True,No,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2021-10-11,Megatron-Turing NLG 530B,"Microsoft,NVIDIA","United States of America,United States of America",Language,530000000000.0,8.586e+23,3848505.6256471733,Confident,True,No,"SOTA improvement,Training cost"
+LEG1_EPOCH_NOTABLE_2024,true,2021-10-12,Yuan 1.0,Inspur,China,Language,245730000000.0,3.5380000000001e+23,591664.5798708292,Confident,True,No,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2021-12-08,Gopher (280B),DeepMind,United Kingdom of Great Britain and Northern Ireland,Language,280000000000.0,6.31e+23,640616.8522346151,Confident,True,No,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2021-12-13,GLaM,Google,United States of America,Language,1200000000000.0,3.6363112434e+23,541437.4162400038,Confident,,No,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2021-12-23,ERNIE 3.0 Titan,"Baidu,Peng Cheng Laboratory","China,China",Language,260000000000.0,1.0421e+24,,Confident,True,No,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2022-01-27,InstructGPT 175B,OpenAI,United States of America,Language,175000000000.0,3.19181e+23,,Confident,,No,"Historical significance,Highly cited"
+LEG1_EPOCH_NOTABLE_2024,true,2022-02-02,AlphaCode,DeepMind,United Kingdom of Great Britain and Northern Ireland,Language,41100000000.0,2.38010000000001e+23,,Confident,,No,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2022-02-10,LaMDA,Google,United States of America,Language,137000000000.0,3.55e+23,229949.98625999544,Confident,,No,Historical significance
+LEG1_EPOCH_NOTABLE_2024,true,2022-02-17,ST-MoE,"Google,Google Brain,Google Research","United States of America,United States of America,United States of America",Language,269000000000.0,2.9e+23,,Likely,,No,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2022-03-15,"GPT-3.5 (davinci-002)
+",OpenAI,United States of America,Language,,2.578e+24,4897551.634095244,Speculative,True,No,"Historical significance,Significant use,SOTA improvement,Training cost"
+LEG1_EPOCH_NOTABLE_2024,true,2022-03-29,Chinchilla,DeepMind,United Kingdom of Great Britain and Northern Ireland,Language,70000000000.0,5.76e+23,,Confident,,No,"SOTA improvement,Historical significance"
+LEG1_EPOCH_NOTABLE_2024,true,2022-04-04,PaLM (540B),Google Research,United States of America,Language,540350000000.0,2.5272e+24,3060364.5969860666,Confident,True,No,"Highly cited,SOTA improvement,Training cost"
+LEG1_EPOCH_NOTABLE_2024,true,2022-04-06,DALL·E 2,OpenAI,United States of America,Image generation,3500000000.0,3.3695784e+23,,Speculative,,No,"Highly cited,SOTA improvement"
+LEG1_EPOCH_NOTABLE_2024,true,2022-04-29,Flamingo,DeepMind,United Kingdom of Great Britain and Northern Ireland,"Multimodal,Vision,Language,Video",80000000000.0,2.18972000000001e+23,183423.16330597224,Confident,,No,"SOTA improvement,Discretionary"
+LEG1_EPOCH_NOTABLE_2024,true,2022-05-02,OPT-175B,Meta AI,United States of America,Language,175000000000.0,4.3e+23,733634.637,Confident,,Yes,"Significant use,Highly cited"
+LEG1_EPOCH_NOTABLE_2024,true,2022-05-10,UL2,"Google Research,Google Brain","United States of America,United States of America",Language,20000000000.0,1.2e+23,126785.76203549477,Confident,,Yes,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2022-06-22,Parti,Google Research,United States of America,Image generation,20000000000.0,5.09607936e+23,427178.712,Confident,,No,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2022-06-29,Minerva (540B),Google,United States of America,Language,540350000000.0,2.7415e+24,,Confident,True,No,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2022-07-11,BLOOM-176B,"Hugging Face,BigScience","United States of America,France",Language,176247271424.0,3.65664e+23,995819.1171,Confident,,Yes,"Historical significance,Highly cited"
+LEG1_EPOCH_NOTABLE_2024,true,2022-08-02,AlexaTM 20B,Amazon,United States of America,Language,19750000000.0,2.04374016e+23,267943.21130997164,Confident,,No,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2022-08-04,GLM-130B,Tsinghua University,China,Language,130000000000.0,3.5490054945e+23,820296.6313095269,Confident,,Yes,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2022-08-10,BlenderBot 3,"McGill University,Meta AI,Mila - Quebec AI (originally Montreal Institute for Learning Algorithms)","Canada,United States of America,Canada",Language,175000000000.0,4.3e+23,,Likely,,Yes,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2022-09-14,PaLI,Google,United States of America,"Language,Vision,Multimodal",16900000000.0,1.69e+23,50878.10777366616,Likely,,No,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2022-10-20,U-PaLM (540B),Google,United States of America,Language,540000000000.0,2.53e+24,,Confident,True,No,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2022-10-20,Flan-PaLM 540B,Google,United States of America,Language,540000000000.0,2.540000000001e+24,,Confident,True,No,"Highly cited,SOTA improvement"
+LEG1_EPOCH_NOTABLE_2024,true,2022-11-16,Galactica,Meta AI,United States of America,"Language,Biology",120000000000.0,3.24e+23,591076.8943544837,Likely,,Yes,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2023-02-10,ViT-22B,Google,United States of America,Vision,21743000000.0,1.93248e+23,285555.57016183576,Confident,,No,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2023-02-24,LLaMA-65B,Meta AI,United States of America,Language,65200000000.0,5.5e+23,578026.3043,Confident,,Yes,"Historical significance,Highly cited"
+LEG1_EPOCH_NOTABLE_2024,true,2023-03-15,GPT-4 (Mar 2023),OpenAI,United States of America,"Multimodal,Language,Vision",1800000000000.0,2.1e+25,37334304.976625234,Likely,True,No,"Highly cited,SOTA improvement,Training cost"
+LEG1_EPOCH_NOTABLE_2024,true,2023-03-15,GPT-4 (Jun 2023),OpenAI,United States of America,"Multimodal,Language,Vision",1800000000000.0,2.1e+25,,Likely,True,No,"Highly cited,SOTA improvement,Training cost"
+LEG1_EPOCH_NOTABLE_2024,true,2023-03-15,Falcon-40B,Technology Innovation Institute,United Arab Emirates,Language,40000000000.0,2.4e+23,319783.157242365,Confident,,Yes,Historical significance
+LEG1_EPOCH_NOTABLE_2024,true,2023-03-20,PanGu-Σ,Huawei Noah's Ark Lab,China,Language,1085000000000.0,4.67e+23,,Confident,,No,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2023-03-30,BloombergGPT,"Bloomberg,Johns Hopkins University","United States of America,United States of America",Language,50558868480.0,2.36e+23,369586.1352802876,Confident,,No,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2023-05-10,PaLM 2,Google,United States of America,Language,340000000000.0,7.34e+24,5014266.983518871,Likely,True,No,"SOTA improvement,Training cost,Significant use,Highly cited"
+LEG1_EPOCH_NOTABLE_2024,true,2023-05-29,PaLI-X,Google Research,United States of America,"Multimodal,Language,Vision,Video",55000000000.0,5.6e+23,,Likely,,No,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2023-07-06,xTrimoPGLM -100B,"Tsinghua University,BioMap Research","China,China",Biology,100000000000.0,6.2e+23,1823415.258,Confident,,No,"SOTA improvement,Training cost"
+LEG1_EPOCH_NOTABLE_2024,true,2023-07-06,InternLM,"Shanghai AI Lab,SenseTime","China,Hong Kong",Language,104000000000.0,9.984e+23,1505257.378,Confident,,No,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2023-07-11,Claude 2,Anthropic,United States of America,Language,,3.866e+24,4902644.123383027,Speculative,True,No,Historical significance
+LEG1_EPOCH_NOTABLE_2024,true,2023-07-18,Llama 2-70B,Meta AI,United States of America,Language,70000000000.0,8.1e+23,1102561.194,Confident,,Yes,"Historical significance,Significant use,Highly cited,Training cost"
+LEG1_EPOCH_NOTABLE_2024,true,2023-09-06,Falcon-180B,Technology Innovation Institute,United Arab Emirates,Language,180000000000.0,3.76e+24,10743500.868805483,Confident,True,Yes,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2023-09-28,Amazon Titan,Amazon,United States of America,"Language,Image generation",200000000000.0,4.8e+24,7933464.673729055,Likely,True,No,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2023-10-07,FinGPT-13B,"University of California Los Angeles (UCLA),Columbia University,New York University (NYU)","United States of America,United States of America,United States of America",Language,13000000000.0,1.6e+23,,Likely,,Yes,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2023-10-30,Skywork-13B,Kunlun Inc.,China,Language,13000000000.0,2.5e+23,,Confident,,Yes,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2023-11-02,Yi-34B,01.AI,China,Language,34000000000.0,6.1e+23,,Confident,,Yes,Significant use
+LEG1_EPOCH_NOTABLE_2024,true,2023-11-04,Grok-1,xAI,United States of America,Language,314000000000.0,2.90000000001e+24,,Likely,,Yes,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2023-11-06,GPT-4 Turbo (Nov 2023),OpenAI,United States of America,"Multimodal,Vision,Language,Image generation",,,,Unknown,True,No,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2023-11-15,Nemotron-3-8B,NVIDIA,United States of America,Language,8000000000.0,1.8e+23,214467.02013524104,Confident,,Yes,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2023-11-22,Inflection-2,Inflection AI,United States of America,Language,,1.001e+25,13461144.182562498,Confident,True,No,"Significant use,Training cost"
+LEG1_EPOCH_NOTABLE_2024,true,2023-11-30,Qwen-72B,Alibaba,China,Language,72000000000.0,1.3e+24,,Confident,,Yes,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2023-12-06,Gemini 1.0 Ultra,Google DeepMind,United States of America,"Multimodal,Language,Vision",,5.0000000001e+25,30719419.93534952,Speculative,True,No,"SOTA improvement,Training cost"
+LEG1_EPOCH_NOTABLE_2024,true,2023-12-07,Llama Guard,Meta AI,United States of America,Language,7000000000.0,1.6e+23,,Confident,,Yes,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2023-12-11,Mixtral 8x7B,Mistral AI,France,Language,46700000000.0,7.74e+23,,Speculative,,Yes,Significant use
+LEG1_EPOCH_NOTABLE_2024,true,2023-12-14,FunSearch,Google DeepMind,United States of America,"Language,Search",15000000000.0,3.87e+23,,Speculative,,Yes,"SOTA improvement,Historical significance"
+LEG1_EPOCH_NOTABLE_2024,true,2023-12-21,nekomata-14b,rinna,Japan,Language,14200000000.0,2.5562e+23,,Confident,,Yes,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2024-02-04,Qwen1.5-72B,Alibaba,China,Language,72000000000.0,1.3e+24,,Confident,,Yes,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2024-02-15,Gemini 1.5 Pro,Google DeepMind,United States of America,"Language,Multimodal",,,,Speculative,True,No,Significant use
+LEG1_EPOCH_NOTABLE_2024,true,2024-02-23,MegaScale (Production),"ByteDance,Peking University","China,China",Language,530000000000.0,3.9e+24,2614019.245,Speculative,,No,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2024-02-26,Mistral Large,Mistral AI,France,Language,,1.12e+25,14110111.93,Likely,,No,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2024-03-04,Claude 3 Opus,Anthropic,United States of America,"Multimodal,Language,Vision",,,,Speculative,True,No,"SOTA improvement,Training cost"
+LEG1_EPOCH_NOTABLE_2024,true,2024-03-04,Aramco Metabrain AI,Saudi Aramco,Saudi Arabia,Language,250000000000.0,1.05e+25,,Likely,,No,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2024-03-07,Inflection-2.5,Inflection AI,United States of America,Language,,8.000001e+24,11804593.33,Likely,,No,Significant use
+LEG1_EPOCH_NOTABLE_2024,true,2024-03-14,MM1-30B,Apple,United States of America,"Multimodal,Language,Vision",30000000000.0,4.86e+23,,Likely,,No,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2024-03-27,DBRX,Databricks,United States of America,Language,132000000000.0,2.6e+24,,Confident,,Yes,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2024-04-09,GPT-4 Turbo (Apr 2024),OpenAI,United States of America,"Multimodal,Vision,Language,Image generation",,,,Unknown,True,No,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2024-04-15,Reka Core,Reka AI,United States of America,"Multimodal,Language,Vision,Video,Speech",67000000000.0,8.400010000000001e+24,,Speculative,,No,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2024-04-18,Llama 3-70B,Meta AI,United States of America,Language,70000000000.0,7.861e+24,,Confident,,Yes,Significant use
+LEG1_EPOCH_NOTABLE_2024,true,2024-05-13,Yi-Large,01.AI,China,Language,100000000000.0,1.8e+24,,Speculative,,No,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2024-05-13,GPT-4o,OpenAI,United States of America,"Multimodal,Language,Audio,Speech,Vision",,,,Speculative,True,No,"SOTA improvement,Significant use"
+LEG1_EPOCH_NOTABLE_2024,true,2024-05-21,ALLaM adapted 70B,Saudi Data and Artificial Intelligence Authority,Saudi Arabia,Language,70000000000.0,1.062e+24,,Confident,,No,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2024-06-07,Qwen2-72B,Alibaba,China,Language,72710000000.0,3.02e+24,,Confident,,Yes,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2024-06-12,Llama-3.1-Nemotron-70B-Instruct,"NVIDIA,Meta AI","United States of America,United States of America",Language,,7.929e+24,,Confident,,Yes,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2024-06-13,OpenVLA,"Stanford University,University of California (UC) Berkeley,Toyota Research Institute,Google DeepMind,Massachusetts Institute of Technology (MIT),Physical Intelligence","United States of America,United States of America,United States of America,United States of America,United States of America,United States of America","Robotics,Vision,Language",7188100000.0,1.1e+23,,Confident,,Yes,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2024-06-14,Nemotron-4 340B,NVIDIA,United States of America,Language,340000000000.0,1.8e+25,21271017.96222655,Confident,True,Yes,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2024-06-17,DeepSeek-Coder-V2 236B,DeepSeek,China,Language,236000000000.0,1.2852e+24,,Confident,,Yes,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2024-06-20,Claude 3.5 Sonnet,Anthropic,United States of America,"Multimodal,Language,Vision",,2.700000000000001e+25,25870993.12024943,Speculative,True,No,"Significant use,SOTA improvement"
+LEG1_EPOCH_NOTABLE_2024,true,2024-06-25,ESM3 (98B),"EvolutionaryScale,University of California (UC) Berkeley","United States of America,United States of America",Biology,98500000000.0,1.07e+24,,Confident,,No,Historical significance
+LEG1_EPOCH_NOTABLE_2024,true,2024-07-23,Llama 3.1-405B,Meta AI,United States of America,Language,405000000000.0,3.8e+25,52885433.95402246,Confident,True,Yes,"SOTA improvement,Training cost"
+LEG1_EPOCH_NOTABLE_2024,true,2024-07-24,Mistral Large 2,Mistral AI,France,Language,123000000000.0,2.13e+25,,Likely,,Yes,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2024-07-29,AFM-server,Apple,United States of America,Language,,4.3e+24,,Likely,,No,Significant use
+LEG1_EPOCH_NOTABLE_2024,true,2024-07-29,AFM-on-device,Apple,United States of America,Language,2730000000.0,4.5126e+23,,Confident,,No,Significant use
+LEG1_EPOCH_NOTABLE_2024,true,2024-08-06,LLaVA-OV-72B,"ByteDance,Nanyang Technological University,Chinese University of Hong Kong (CUHK),Hong Kong University of Science and Technology (HKUST)","China,Singapore,Hong Kong,Hong Kong","Multimodal,Vision,Language,Video",72000000000.0,3.036551985824e+24,,Confident,,Yes,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2024-08-06,GPT-4o (Aug 2024),OpenAI,United States of America,"Multimodal,Language,Audio,Speech,Vision",,,,Speculative,True,No,"SOTA improvement,Significant use"
+LEG1_EPOCH_NOTABLE_2024,true,2024-08-13,Grok-2,xAI,United States of America,"Language,Vision,Multimodal",,2.96e+25,31602310.530835517,Confident,True,No,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2024-08-29,GLM-4-Plus,Z.ai (Zhipu AI),China,Language,,,,Speculative,True,No,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2024-09-06,DeepSeek-V2.5,DeepSeek,China,Language,236000000000.0,1.7892e+24,,Confident,,Yes,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2024-09-17,Qwen2.5-32B,Alibaba,China,Language,32500000000.0,3.51e+24,,Confident,,Yes,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2024-09-19,Qwen2.5-72B,Alibaba,China,Language,72700000000.0,7.8e+24,,Confident,,Yes,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2024-09-19,Qwen2.5 Instruct (72B),Alibaba,China,Language,72700000000.0,7.8516e+24,,Confident,,Yes,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2024-09-20,Telechat2-115B,China Telecom,China,Language,115000000000.0,6.9e+24,,Confident,,Yes,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2024-09-24,Llama 3.2 11B,Meta AI,United States of America,"Multimodal,Vision,Language",10600000000.0,5.79e+23,,Confident,,Yes,Significant use
+LEG1_EPOCH_NOTABLE_2024,true,2024-10-04,Movie Gen Video,Meta AI,United States of America,"Video,Vision",30000000000.0,1.65e+24,,Confident,,No,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2024-10-18,Yi-Lightning,01.AI,China,Language,,1.5e+24,,Confident,,No,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2024-10-22,NVLM-X 72B,NVIDIA,United States of America,"Vision,Language",72000000000.0,3.0398181e+24,,Likely,,No,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2024-10-22,NVLM-H 72B,NVIDIA,United States of America,"Vision,Language",72000000000.0,3.02e+24,,Likely,,No,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2024-10-22,NVLM-D 72B,NVIDIA,United States of America,"Vision,Language",72000000000.0,3.02e+24,,Confident,,Yes,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2024-10-28,Doubao-pro,ByteDance,China,Language,500000000000.0,2.505e+25,,Likely,,No,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2024-11-06,Hunyuan-Large,Tencent,China,Language,389000000000.0,3.49237e+24,,Confident,,Yes,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2024-11-20,GPT-4o (Nov 2024),OpenAI,United States of America,"Multimodal,Language,Audio,Speech,Vision",,,,Speculative,True,No,"SOTA improvement,Significant use"
+LEG1_EPOCH_NOTABLE_2024,true,2024-12-03,Amazon Nova Pro,Amazon,United States of America,"Multimodal,Language,Video,Vision",,6.000010000000001e+24,,Speculative,,No,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2024-12-06,Llama 3.3 70B,Meta AI,United States of America,Language,70000000000.0,6.8649768e+24,,Confident,,Yes,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2024-12-09,EXAONE 3.5 32B,LG AI Research,Korea (Republic of),Language,32000000000.0,1.25e+24,,Confident,,Yes,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2024-12-24,DeepSeek-V3,DeepSeek,China,Language,671000000000.0,3.3e+24,5390000.0,Confident,,Yes,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2025-01-20,DeepSeek-R1,DeepSeek,China,Language,671000000000.0,3.5e+24,6770000.0,Confident,,Yes,"Training cost,SOTA improvement"
+LEG1_EPOCH_NOTABLE_2024,true,2025-01-29,GPT-4o (Jan 2025),OpenAI,United States of America,"Multimodal,Language,Audio,Speech,Vision",,,,Speculative,True,No,"SOTA improvement,Significant use"
+LEG1_EPOCH_NOTABLE_2024,true,2025-02-17,Grok 3,xAI,United States of America,"Language,Vision,Multimodal",3000000000000.0,3.5e+26,217835545.5267339,Likely,True,No,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2025-02-24,Claude 3.7 Sonnet,Anthropic,United States of America,"Language,Vision,Multimodal",,3.35e+25,,Likely,,No,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2025-02-27,GPT-4.5,OpenAI,United States of America,"Language,Vision,Multimodal",,3.8e+26,339957479.93550694,Likely,True,No,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2025-03-06,QwQ-32B,Alibaba,China,Language,32500000000.0,3.51e+24,,Speculative,,Yes,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2025-03-11,Hunyuan-TurboS,Tencent,China,Language,560000000000.0,5.4e+24,,Confident,,No,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2025-03-16,EXAONE Deep 32B,LG AI Research,Korea (Republic of),Language,32000000000.0,1.26e+24,,Confident,,Yes,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2025-03-24,DeepSeek-V3 (Mar 2025),DeepSeek,China,Language,671000000000.0,3.3e+24,5390000.0,Confident,,Yes,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2025-03-27,GPT-4o (Mar 2025),OpenAI,United States of America,"Multimodal,Language,Audio,Speech,Vision",,,,Speculative,True,No,"SOTA improvement,Significant use"
+LEG1_EPOCH_NOTABLE_2024,true,2025-04-05,Llama 4 Scout,Meta AI,United States of America,"Multimodal,Language,Vision",109000000000.0,4.08e+24,,Likely,,Yes,Discretionary
+LEG1_EPOCH_NOTABLE_2024,true,2025-04-05,Llama 4 Maverick,Meta AI,United States of America,"Multimodal,Language,Vision",400000000000.0,2.244000000001e+24,,Likely,,Yes,Discretionary
+LEG1_EPOCH_NOTABLE_2024,true,2025-04-05,Llama 4 Behemoth (preview),Meta AI,United States of America,"Multimodal,Language,Vision",2000000000000.0,5.18400000000001e+25,44588963.624007165,Likely,True,No,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2025-04-10,Pangu Ultra,Huawei,China,Language,135000000000.0,1.0692e+25,,Confident,,No,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2025-04-29,Qwen3-235B-A22B,Alibaba,China,Language,235000000000.0,4.752e+24,,Likely,,Yes,Discretionary
+LEG1_EPOCH_NOTABLE_2024,true,2025-05-11,Seed1.5-VL,ByteDance,China,"Vision,Language,Multimodal,Video",,1.388556e+24,,Confident,,No,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2025-05-28,DeepSeek-R1 (May 2025),DeepSeek,China,Language,671000000000.0,4.020010000000001e+24,6770000.0,Confident,,Yes,"Training cost,SOTA improvement"
+LEG1_EPOCH_NOTABLE_2024,true,2025-07-09,Grok 4,xAI,United States of America,"Language,Multimodal,Vision",3000000000000.0,5.0000000000001e+26,387842678.08636147,Speculative,True,No,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2025-07-11,Kimi K2,Moonshot,China,Language,1000000000000.0,2.976e+24,,Confident,,Yes,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2025-07-15,EXAONE 4.0 (32B),LG AI Research,Korea (Republic of),Language,32000000000.0,2.69000000000001e+24,,Confident,,Yes,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2025-07-22,Qwen3-Coder-480B-A35B,Alibaba,China,Language,480000000000.0,1.575e+24,,Confident,,Yes,Discretionary
+LEG1_EPOCH_NOTABLE_2024,true,2025-07-25,Qwen3-235B-A22B-Thinking (Jul 2025),Alibaba,China,Language,235000000000.0,4.752e+24,,Likely,,Yes,Discretionary
+LEG1_EPOCH_NOTABLE_2024,true,2025-07-25,Qwen3-235B-A22B (Jul 2025),Alibaba,China,Language,235000000000.0,4.752e+24,,Likely,,Yes,Discretionary
+LEG1_EPOCH_NOTABLE_2024,true,2025-08-05,gpt-oss-120b,OpenAI,United States of America,Language,116830000000.0,4.94e+24,,Confident,,Yes,Discretionary
+LEG1_EPOCH_NOTABLE_2024,true,2025-08-05,gpt-oss-20b,OpenAI,United States of America,Language,20910000000.0,5.49e+23,,Confident,,Yes,Discretionary
+LEG1_EPOCH_NOTABLE_2024,true,2025-08-05,GLM-4.5,"Z.ai (Zhipu AI),Tsinghua University","China,China",Language,355000000000.0,4.42e+24,,Confident,,Yes,Discretionary
+LEG1_EPOCH_NOTABLE_2024,true,2025-08-07,GPT-5,OpenAI,United States of America,"Multimodal,Language,Vision",,6.6e+25,,Speculative,,No,"Significant use,Historical significance"
+LEG1_EPOCH_NOTABLE_2024,true,2025-09-01,LongCat-Flash,Meituan Inc,China,Language,560000000000.0,3.726e+24,,Likely,,Yes,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2025-09-05,Qwen3-Max,Alibaba,China,Language,1000000000000.0,1.512e+25,,Speculative,,No,Discretionary
+LEG1_EPOCH_NOTABLE_2024,true,2025-09-16,AgentFounder-30B,Alibaba,China,Language,30000000000.0,6.5367e+23,,Confident,,Yes,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2025-09-30,GLM-4.6,"Z.ai (Zhipu AI),Tsinghua University","China,China",Language,357000000000.0,4.42e+24,,Likely,,Yes,Discretionary
+LEG1_EPOCH_NOTABLE_2024,true,2025-10-10,Ling-1T,Ant Group,China,Language,1000000000000.0,6.000001e+24,,Confident,,Yes,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2025-11-06,Kimi K2 Thinking,Moonshot,China,Language,1000000000000.0,4.2e+24,,Likely,,Yes,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2025-11-20,Olmo 3,Allen Institute for AI,United States of America,Language,32000000000.0,1.1e+24,,Confident,,Yes,SOTA improvement
+LEG1_EPOCH_NOTABLE_2024,true,2025-12-15,Nemotron 3-Nano-30B-A3B,NVIDIA,United States of America,Language,31600000000.0,4.8e+23,,Likely,,Yes,Discretionary
+LEG1_EPOCH_NOTABLE_2024,true,2025-12-22,GLM-4.7,Z.ai (Zhipu AI),China,Language,358000000000.0,4.42e+24,,Likely,,Yes,Discretionary
+LEG1_EPOCH_NOTABLE_2024,true,2025-12-31,K-EXAONE,LG AI Research,Korea (Republic of),Language,236000000000.0,1.52e+24,,Confident,,No,Training cost
+LEG1_EPOCH_NOTABLE_2024,true,2026-02-02,Kimi K2.5,Moonshot,China,Language,1040000000000.0,5.8e+24,,Likely,,Yes,Discretionary
+LEG1_EPOCH_NOTABLE_2024,true,2026-02-17,GLM-5,Z.ai (Zhipu AI),China,Language,744000000000.0,6.84e+24,,Likely,,Yes,Discretionary
+LEG1_EPOCH_NOTABLE_2024,true,2026-04-24,DeepSeek-V4-Pro,DeepSeek,China,Language,1600000000.0,9.702e+24,,Speculative,,Yes,Discretionary
+LEG1_EPOCH_NOTABLE_2024,true,2026-04-24,DeepSeek-V4-Flash,DeepSeek,China,Language,284000000.0,2.496e+24,,Speculative,,Yes,Discretionary

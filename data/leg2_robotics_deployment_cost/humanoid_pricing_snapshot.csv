@@ -1,0 +1,10 @@
+source_id,verified,as_of_date,company,model,unit_price_usd_low,unit_price_usd_high,pricing_type,availability,specs_height_mm,specs_weight_kg,specs_dof,notes
+LEG2_UNITREE_PRICING,true,2026-05-12,Unitree,G1 (standard),13500,13500,retail_disclosed,shipping,1320,35,23,"Retail price excludes tax + shipping. Commodity humanoid floor — sets the lower bound of the humanoid cost curve. 2hr battery; 2kg arm load; depth camera + 3D LiDAR; WiFi 6."
+LEG2_UNITREE_PRICING,true,2026-05-12,Unitree,G1 EDU,,,contact_sales,shipping,1320,35,23-43,"Educational variant. Up to 43 DOF with optional components. 3kg arm load. 120 N·m knee torque vs 90 N·m standard. Price not disclosed."
+LEG2_UNITREE_PRICING,false,2026-04,Unitree,H1,90000,90000,retail_disclosed,shipping,,,,"Approximate; verify current price."
+TSLA_2026_Q1_EARNINGS,false,2026-04-22,Tesla,Optimus current build cost,50000,100000,internal_cost_estimate,pre_production,,,,"Q1 2026 earnings call discussion. Cost estimate per unit at current manufacturing scale. Gen 3 hands alone $30-80K."
+TSLA_2026_Q1_EARNINGS,false,2026-04-22,Tesla,Optimus initial commercial,100000,150000,planned_introductory_price,production_starts_2026_Q3,,,,"Initial commercial units expected to be priced in $100-150K range when production begins late July/August 2026 at Fremont."
+TSLA_2026_Q1_EARNINGS,false,2026-04-22,Tesla,Optimus target,30000,30000,public_target_price,future,,,,"<$30K per unit. Long-term Musk-stated target. Implies dramatic cost reduction; timeline not committed."
+LEG2_HUMANOID_FUNDING,false,2026-02,Apptronik,Apollo,,,no_public_pricing,commercial_pilots,,,,"Commercial pilots with Mercedes-Benz, GXO Logistics, Jabil. Pricing not disclosed."
+LEG2_HUMANOID_FUNDING,false,2026-02,Figure AI,Figure 02,,,no_public_pricing,commercial_pilots,,,,"BMW Spartanburg commercial pilot live. Pricing not disclosed."
+LEG2_HUMANOID_FUNDING,false,2026-02,1X Technologies,NEO,,,no_public_pricing,(home assistant, pre-launch),,,,"Home-assistant focus. Consumer pricing not yet announced."
