@@ -2,7 +2,7 @@
 
 **Article series:** *The 2032 Window: When AI and Robotics Cross the Cost-of-Labor Line*
 **Author:** Cerkon (Substack: [cerkon.substack.com](https://cerkon.substack.com))
-**Status:** v1.0 — published 2026-MM-DD <!-- TODO update on publish -->
+**Status:** v1.1 — Part 1 published 2026-05-15; debt-trajectory chart + macro-flows chart + supporting CSV added in this revision (see [`CHANGELOG.md`](CHANGELOG.md))
 
 This repository is the data appendix for a three-part Substack series. Every numeric claim in the articles maps to a CSV row here. Every chart is reproducible from the included Python pipeline.
 
@@ -14,7 +14,7 @@ The premise: if you disagree with the analysis, you can disagree from the same s
 
 | Part | Title | Substack link |
 |------|-------|---------------|
-| 1 | The Trajectory | <TK — added on publish> |
+| 1 | The Trajectory | [cerkon.substack.com/p/the-2032-window](https://cerkon.substack.com/p/the-2032-window) |
 | 2 | The Macro Forces — Who's Paying, and Why | <TK> |
 | 3 | K-Shape and Positioning — Where You'll Be Standing | <TK> |
 
@@ -31,7 +31,7 @@ The series argues that AI capability + robotics cost + execution-layer constrain
 ├── sources.md               # 30+ source rows, status-tracked (proposed / pulled / verified / cited)
 ├── data/
 │   ├── README.md            # Data folder index
-│   ├── charts/              # 11 production charts + Python build pipeline
+│   ├── charts/              # 13 production charts + Python build pipeline
 │   │   ├── build_charts.py
 │   │   ├── article_style.py
 │   │   └── chart_NN_*.png   # Rendered charts (200 DPI)
@@ -67,9 +67,9 @@ pip install pandas matplotlib
 python build_charts.py
 ```
 
-This regenerates all 11 PNGs into `data/charts/`. The pipeline is idempotent — outputs are byte-comparable across runs on the same input data.
+This regenerates all 13 PNGs into `data/charts/`. The pipeline is idempotent — outputs are byte-comparable across runs on the same input data.
 
-Current settings produce: Mag7 capex hockey-stick ending at $738B for 2026, AI compute scaling at 2.2×/yr (broad frontier) / 3.1×/yr (top-10%), working-age population projections indexed to 2024 for 7 countries, scarce-asset performance 2015-2024 with Bitcoin at 258× on a log Y-axis, etc. If you re-run with updated source data (e.g., 2027 10-Ks), update the corresponding CSVs and re-run; the chart code does not need to change.
+Current settings produce: Mag7 capex hockey-stick ending at $738B for 2026, AI compute scaling at 2.2×/yr (broad frontier) / 3.1×/yr (top-10%), working-age population projections indexed to 2024 for 7 countries, scarce-asset performance 2015-2024 with Bitcoin at 258× on a log Y-axis, the K-shape since 2000 (labor share −4.5pp / S&P 500 TR ~8.3×), the four 2026 macro flows on one axis (Mag7 capex $738B / Cohort 1-3 wages $690B / federal deficit $1.9T / M2 trailing-12 $1.6T), and US federal debt 1946-2036 with the 1946 peacetime peak (106.1%) breached on the CBO Feb 2026 baseline at FY2030 (107.7%). If you re-run with updated source data (e.g., 2027 10-Ks), update the corresponding CSVs and re-run; the chart code does not need to change.
 
 ---
 

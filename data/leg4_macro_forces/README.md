@@ -9,7 +9,10 @@ Capital allocation + financing data feeding Section 2 of the article.
 | `mag7_capex_2022_2026.csv` | Mag7 + hyperscaler capex 2022-2026 | LEG4_MAG7_CAPEX + analyst aggregations | Pulled (Tier 1) |
 | `stargate_commitments.csv` | Stargate Project + related sovereign-fund commitments | LEG4_STARGATE + primary announcements | Pulled (Tier 1) |
 | `us_fiscal_trajectory.csv` | US deficit / debt projections | LEG4_CBO_DEFICIT | Pulled (Tier 1) |
+| `us_debt_to_gdp_1946_2036.csv` | US federal debt held by public, % of GDP — annual 1946-2024 historical + CBO Feb 2026 baseline 2025-2036 | LEG4_DEBT_HISTORICAL + LEG4_CBO_BASELINE | Pulled (Tier 1) — added v1.1 |
 | `us_monetary_aggregates.csv` | Fed balance sheet (WALCL) + M2 (M2SL) | LEG4_FRED_FED_BALANCE + LEG4_FRED_M2 | Pulled via search (direct FRED CSV blocked from this env — see methodology note) |
+| `kshape_chart_data.csv` | US labor share of GDP + S&P 500 total return 2000-2024 | LEG4_BLS_LABOR_SHARE + LEG4_SP500_TR | Pulled (key values verified, intermediates approximate) |
+| `scarce_asset_performance_2015_2025.csv` | Scarce-asset performance comparison (BTC / Gold / median home / SPX TR / MSCI World) | SCARCE_ASSET_RETURNS | Pulled (BTC + Gold verified; others approximate) |
 | `named_capital_voices.csv` | Public statements from named capital allocators | Andreessen / Karp / Schmidt + sovereign fund chiefs | Pending (Tier 2) |
 | `sovereign_fund_ai_allocations.csv` | PIF + G42 + Mubadala + Temasek AI commitments | LEG4_PIF_AUM + announcements | Pending (Tier 2) |
 
@@ -32,12 +35,22 @@ Capital allocation + financing data feeding Section 2 of the article.
 - 5 new US data center sites announced
 - International expansion: UAE (2026), UK / Norway / Argentina / South Korea (in development)
 
-**US fiscal trajectory (CBO Budget and Economic Outlook):**
-- FY2025 deficit: $1.9 trillion (6.2% of GDP)
-- FY2026 deficit: $1.9 trillion (CBO Feb 2026 baseline)
+**US fiscal trajectory (CBO Feb 2026 Budget and Economic Outlook):**
+- FY2025 deficit: $1.9 trillion (6.2% of GDP); debt-to-GDP **99%** (CBO baseline anchor)
+- FY2026 deficit: $1.9 trillion; debt-to-GDP 101%
 - FY2027 deficit: 5.2% of GDP as TCJA effects + revenue growth narrow
-- By 2035: $2.7T deficit; federal debt held by public at **118% of GDP** (surpasses 1946 peak of 106%)
-- By 2036: $3.1T deficit, 120% debt-to-GDP, 6.7% of GDP
+- **FY2030: debt-to-GDP 107.7% — first peacetime breach of the 1946 peak (106.1%)** (CBO's own framing: "a new record")
+- FY2036: $3.1T deficit (6.7% of GDP); debt-to-GDP **120%**
+
+**US debt-to-GDP — annual historical + CBO projection (Chart 13):**
+- 1946 peak (WWII aftermath): **106.1%** of GDP — historical record
+- 1974 trough: 23.2% — postwar low
+- 2008 (pre-GFC): 35.2%
+- 2020 (COVID step): 98.7%
+- 2024 (latest historical): 99.6%
+- CBO Feb 2026 baseline path: 99% (FY25) → 108% (FY30, breach) → 120% (FY36)
+- Source: FRED FYPUGDA188S annual series (historical) + CBO Feb 2026 baseline (projection)
+- Note: CBO Feb 2026 reframes the breach earlier than CBO's prior baselines projected — 2030 vs 2035 in earlier outlooks
 
 **US monetary aggregates:**
 - M2: $22.5T (Jan 2026), up from $20.4T (mid-2025) — **+$1.6T over ~12 months**
