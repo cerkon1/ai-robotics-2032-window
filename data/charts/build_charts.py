@@ -827,10 +827,173 @@ def chart_11_scarce_assets():
 
 
 # ----------------------------------------------------------------------
+# Chart 12 — Four 2026 US macro flows, on one axis (Part 2 §2.2)
+# ----------------------------------------------------------------------
+def chart_12_macro_flows():
+    """2026 macro-flows comparison.
+    Replaces the §2.2 bullet list in Part 2 with a single visual.
+
+    Sources:
+      - Mag7 capex 2026: $738B per leg4_macro_forces/mag7_capex_2022_2026.csv
+      - Cohort 1-3 (minus Logisticians) aggregate wages: $690B per
+        cohort_map/cohort_map_us_occupations.csv (sum of us_employment_2024 *
+        median_annual_wage_usd_2024 across cohorts 1-3, excluding the
+        Logisticians row whose CSV bottleneck flag is augmentation_not_replacement)
+      - US federal deficit FY26: $1.9T per leg4_macro_forces/us_fiscal_trajectory.csv
+      - M2 trailing-12 expansion: $1.6T per leg4_macro_forces/us_monetary_aggregates.csv
+    """
+    # Top to bottom by magnitude — backdrop pair on top, matched pair on bottom.
+    # Color: capital side navy, labor side red, backdrop gray. Mirrors chart 5.
+    flows = [
+        ('US federal deficit (FY26)',           1900, PALETTE['secondary']),
+        ('M2 expansion (trailing 12 months)',   1600, PALETTE['secondary']),
+        ('Mag7 capex (2026 planned)',            738, PALETTE['primary']),
+        ('Cohort 1-3 aggregate wages (2024)',    690, PALETTE['danger']),
+    ]
+
+    fig, ax = plt.subplots(figsize=(11, 5.5))
+    labels = [f[0] for f in flows]
+    values = [f[1] for f in flows]
+    colors = [f[2] for f in flows]
+    y_positions = list(range(len(flows)))
+
+    bars = ax.barh(y_positions, values, color=colors, alpha=0.88,
+                   edgecolor='white', linewidth=0.6, height=0.62)
+
+    for bar, val in zip(bars, values):
+        if val >= 1000:
+            label = f'${val/1000:.1f}T'
+        else:
+            label = f'${val}B'
+        ax.text(bar.get_width() + 35, bar.get_y() + bar.get_height()/2, label,
+                va='center', ha='left', fontsize=11.5, fontweight='bold',
+                color=PALETTE['text'])
+
+    # Vertical bracket linking the matched pair (rows 2 and 3) at the right of
+    # their bar tips, with a 'matched magnitudes' annotation.
+    bracket_x = max(738, 690) + 220
+    ax.plot([bracket_x, bracket_x], [2, 3], color=PALETTE['text'], lw=1.2,
+            solid_capstyle='butt')
+    # Small caps at top/bottom of the bracket
+    ax.plot([bracket_x - 14, bracket_x], [2, 2], color=PALETTE['text'], lw=1.2)
+    ax.plot([bracket_x - 14, bracket_x], [3, 3], color=PALETTE['text'], lw=1.2)
+    ax.text(bracket_x + 30, 2.5, 'matched\nmagnitudes',
+            va='center', ha='left', fontsize=10, fontweight='bold',
+            color=PALETTE['text'], style='italic')
+
+    ax.set_yticks(y_positions)
+    ax.set_yticklabels(labels, fontsize=10.5)
+    ax.set_xlim(0, 2350)
+    ax.invert_yaxis()  # row 0 sits on top
+    ax.grid(axis='y', visible=False)
+    # x-axis tick labels in $B; no axis label needed (bar values are labeled directly,
+    # title makes scale obvious). Avoids label/source-line collision.
+    ax.set_xticks([0, 500, 1000, 1500, 2000])
+    ax.set_xticklabels(['$0', '$500B', '$1.0T', '$1.5T', '$2.0T'])
+
+    set_titles(ax,
+               'Four 2026 US macro flows, on one axis',
+               'Mag7 capital expenditure and Cohort 1-3 aggregate wages are matched in magnitude')
+
+    add_source(fig,
+               'Mag7 capex: 10-K + 2026 earnings guidance | Cohort wages: BLS OES May 2024 (cohorts 1-3 less Logisticians) | '
+               'Deficit: CBO Feb 2026 baseline | M2: FRED M2SL trailing 12 months')
+    plt.savefig(CHARTS / 'chart_12_macro_flows.png')
+    plt.close()
+    print('Chart 12 saved.')
+
+
+# ----------------------------------------------------------------------
+# Chart 13 — US federal debt vs the 1946 peacetime peak (Part 2 §2.2)
+# ----------------------------------------------------------------------
+def chart_13_debt_trajectory():
+    """US federal debt held by the public, % of GDP, 1946-2036.
+    Historical 1946-2024 from FRED FYPUGDA188S (via Multpl mirror — annual);
+    CBO Feb 2026 baseline 2025-2036 (4 anchor years 2025/2026/2030/2036
+    with linear interpolation through intermediate years).
+
+    Visualizes the article's claim: the country has been below the 1946 WWII
+    peacetime peak (106.1%) for 80 years and is on a CBO trajectory to breach
+    it around 2030 (CBO's own description: "new record" by FY2030).
+    """
+    df = pd.read_csv(ROOT / 'leg4_macro_forces' / 'us_debt_to_gdp_1946_2036.csv')
+    df['year'] = pd.to_numeric(df['year'], errors='coerce')
+    df['value'] = pd.to_numeric(df['value'], errors='coerce')
+
+    historical = df[df['source_id'] == 'LEG4_DEBT_HISTORICAL'].sort_values('year')
+    baseline = df[df['source_id'] == 'LEG4_CBO_BASELINE'].sort_values('year')
+
+    fig, ax = plt.subplots(figsize=(11, 6))
+
+    # Historical: solid navy
+    ax.plot(historical['year'], historical['value'], '-',
+            color=PALETTE['primary'], lw=2.4, label='Historical (FRED)')
+
+    # Visual bridge from 2024 historical to 2025 baseline (so the line is continuous)
+    bridge = pd.concat([historical.tail(1), baseline.head(1)])
+    ax.plot(bridge['year'], bridge['value'], '--',
+            color=PALETTE['accent'], lw=1.6, alpha=0.5)
+
+    # Projection: dashed orange (signals projected vs historical)
+    ax.plot(baseline['year'], baseline['value'], '--',
+            color=PALETTE['accent'], lw=2.4, label='CBO Feb 2026 baseline')
+
+    # Horizontal reference line at 106.1% (1946 peacetime peak)
+    ax.axhline(y=106.1, color=PALETTE['danger'], linestyle=':',
+               linewidth=1.6, alpha=0.85)
+    ax.text(1990, 109, '1946 peacetime peak: 106.1%',
+            fontsize=10, color=PALETTE['danger'], fontweight='bold', ha='center')
+
+    # Mark the breach point at FY2030
+    ax.scatter([2030], [107.7], color=PALETTE['accent'], s=110,
+               zorder=5, edgecolor='white', lw=1.5)
+
+    # Annotations
+    # 1946 peak
+    ax.annotate('1946 peak\n106.1%',
+                xy=(1946, 106.1), xytext=(1958, 92),
+                fontsize=10, fontweight='bold', color=PALETTE['text'],
+                arrowprops=dict(arrowstyle='->', color=PALETTE['text'], lw=1.0))
+    # 1974 trough
+    ax.annotate('1974 trough\n23.2%',
+                xy=(1974, 23.2), xytext=(1980, 6),
+                fontsize=10, fontweight='bold', color=PALETTE['text'],
+                arrowprops=dict(arrowstyle='->', color=PALETTE['text'], lw=1.0))
+    # 2030 breach
+    ax.annotate('FY2030: peacetime\nrecord breached\n(107.7%)',
+                xy=(2030, 107.7), xytext=(2008, 60),
+                fontsize=10, fontweight='bold', color=PALETTE['danger'],
+                arrowprops=dict(arrowstyle='->', color=PALETTE['danger'], lw=1.2))
+    # 2036 endpoint label
+    ax.text(2036.6, 120, '120%',
+            fontsize=10.5, fontweight='bold',
+            color=PALETTE['accent'], va='center', ha='left')
+
+    ax.set_xlim(1944, 2042)
+    ax.set_ylim(0, 132)
+    ax.set_ylabel('Federal debt held by public (% of GDP)')
+    ax.set_xlabel('Fiscal year')
+    ax.legend(loc='upper left', frameon=True, framealpha=0.95,
+              facecolor='white', edgecolor=PALETTE['grid'])
+
+    set_titles(ax,
+               'US federal debt vs the 1946 peacetime peak',
+               'Historical descent + projected breach in FY2030 — 80 years of restraint, ending')
+
+    add_source(fig,
+               'Historical 1946-2024: FRED FYPUGDA188S via Multpl mirror | '
+               'Projected 2025-2036: CBO Feb 2026 Budget and Economic Outlook '
+               '(4 anchor years 2025/2026/2030/2036, intermediate years linear-interpolated)')
+    plt.savefig(CHARTS / 'chart_13_debt_trajectory.png')
+    plt.close()
+    print('Chart 13 saved.')
+
+
+# ----------------------------------------------------------------------
 # Build all
 # ----------------------------------------------------------------------
 if __name__ == '__main__':
-    print('Building 11 article charts...')
+    print('Building 13 article charts...')
     print()
 
     chart_1_metr()
@@ -844,6 +1007,8 @@ if __name__ == '__main__':
     chart_9_cpi_components()
     chart_10_skill_quadrant()
     chart_11_scarce_assets()
+    chart_12_macro_flows()
+    chart_13_debt_trajectory()
 
     print()
     print('All charts built. Output at data/charts/')
